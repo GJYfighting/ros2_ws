@@ -1,0 +1,16 @@
+pose,detected,red_area_px,bbox_x,bbox_y,bbox_w,bbox_h,center_u,center_v,center_score,image_mean,image_std,rgb_frame
+observe_s01,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.00941536458333,2.2202861224385235,robot/link4/robot_rgbd_cam
+observe_s01,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.00941536458333,2.2202861224385235,robot/link4/robot_rgbd_cam
+observe_s02,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.05403125,2.1974849257784332,robot/link4/robot_rgbd_cam
+observe_s03,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.05062239583333,2.2119237427798955,robot/link4/robot_rgbd_cam
+observe_s04,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.09491015625,2.197151003229093,robot/link4/robot_rgbd_cam
+observe_s05,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.094828125,2.1970985416473683,robot/link4/robot_rgbd_cam
+observe_s06,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.0,0.0,robot/link4/robot_rgbd_cam
+observe_s07,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.0,0.0,robot/link4/robot_rgbd_cam
+observe_s08,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.0,0.0,robot/link4/robot_rgbd_cam
+observe_s09,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.0,0.0,robot/link4/robot_rgbd_cam
+observe_s10,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.094828125,2.1970985416473683,robot/link4/robot_rgbd_cam
+observe_s11,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.0,0.0,robot/link4/robot_rgbd_cam
+observe_s12,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.09485546875,2.197103583993758,robot/link4/robot_rgbd_cam
+observe_s13,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.09485546875,2.197103583993758,robot/link4/robot_rgbd_cam
+observe_s14,0,0.0,-1,-1,-1,-1,-1,-1,0.0,204.09485546875,2.197103583993758,robot/link4/robot_rgbd_cam

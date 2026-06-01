@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="robot_world">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.02</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+ 
+    <plugin
+      filename="ignition-gazebo-physics-system"
+      name="ignition::gazebo::systems::Physics">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-user-commands-system"
+      name="ignition::gazebo::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-scene-broadcaster-system"
+      name="ignition::gazebo::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-contact-system"
+      name="gz::sim::systems::Contact">
+    </plugin>
+
+    <scene>
+      <ambient>1.0 1.0 1.0</ambient>
+      <background>0.8 0.8 0.8</background>
+    </scene>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.94 0.90 0.81 1</ambient>
+            <diffuse>0.94 0.90 0.81 1</diffuse>
+            <specular>1 1 1 0</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- table -->
+    <model name="table">
+      <static>true</static>
+      <link name="table_link">
+
+        <!-- tabletop: top surface at z = 0.75 -->
+        <collision name="top_collision">
+          <pose>0 0 0.735 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.90 0.60 0.03</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="top_visual">
+          <pose>0 0 0.735 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.90 0.60 0.03</size>
+            </box>
+          </geometry>
+        </visual>
+
+        <!-- simple pedestal -->
+        <collision name="pedestal_collision">
+          <pose>0 0 0.36 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.10 0.10 0.72</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="pedestal_visual">
+          <pose>0 0 0.36 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.10 0.10 0.72</size>
+            </box>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- wood block -->
+    <model name="wood_block">
+      <pose>0.12 0.00 0.775 0 0 0</pose>
+      <link name="block_link">
+
+        <inertial>
+          <mass>0.03</mass>
+          <inertia>
+            <ixx>1.25e-5</ixx>
+            <iyy>1.25e-5</iyy>
+            <izz>1.25e-5</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+        </inertial>
+
+        <collision name="block_collision">
+          <geometry>
+            <box>
+              <size>0.05 0.05 0.05</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.8</mu>
+                <mu2>0.8</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+
+        <visual name="block_visual">
+          <geometry>
+            <box>
+              <size>0.05 0.05 0.05</size>
+            </box>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

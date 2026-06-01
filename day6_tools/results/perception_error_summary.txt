@@ -1,0 +1,14 @@
+n_total: 30
+n_detected: 30
+n_depth_valid: 30
+n_error_valid: 30
+miss_rate: 0.000000
+depth_fail_rate_given_detected: 0.000000
+error_mean_x: -0.000817
+error_mean_y: -0.000020
+error_mean_z: -0.000621
+error_std_x: 0.004741
+error_std_y: 0.002311
+error_std_z: 0.003083
+error_norm_mean: 0.005770
+error_norm_std: 0.002253

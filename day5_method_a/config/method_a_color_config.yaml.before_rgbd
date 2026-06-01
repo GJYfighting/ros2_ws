@@ -1,0 +1,49 @@
+topics:
+  rgb: /depth_cam/rgb/image_raw
+  depth: /depth_cam/depth/image_raw
+  camera_info: /depth_cam/rgb/camera_info
+
+color_detector:
+  # 使用 HSV 检测红色，红色在 HSV 中跨 0 度，所以分两段
+  hsv_low_1: [0, 60, 40]
+  hsv_high_1: [12, 255, 255]
+
+  hsv_low_2: [168, 60, 40]
+  hsv_high_2: [180, 255, 255]
+
+  # 最小面积，太小的红色噪声不算目标
+  min_area_px: 80
+
+  # 形态学滤波核大小
+  morph_kernel: 5
+
+depth:
+  min_m: 0.02
+  max_m: 5.00
+
+  # 优先使用轮廓 mask 内的深度
+  use_contour_mask: true
+
+  # 如果 mask 内深度无效，则退回 bbox 中间区域
+  fallback_center_crop_ratio: 0.60
+
+frames:
+  base_frame_candidates:
+    - base_link
+    - robot/base_link
+
+  camera_frame_candidates:
+    - robot/link4/robot_cam_rgb
+    - robot/link4/robot_cam_depth
+    - depth_cam_frame
+    - depth_cam_link
+    - robot/depth_cam_frame
+    - robot/depth_cam_link
+
+runtime:
+  timeout_sec: 10.0
+  sync_slop_sec: 0.60
+
+  output_json: /home/ubuntu/ros2_ws/day5_method_a/results/method_a_color_once.json
+  output_debug_image: /home/ubuntu/ros2_ws/day5_method_a/results/debug/method_a_color_once.png
+  output_mask_image: /home/ubuntu/ros2_ws/day5_method_a/results/debug/method_a_color_mask.png

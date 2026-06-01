@@ -1,0 +1,23 @@
+{
+  "trial_id": "step7_close_dir_4",
+  "use_truth": true,
+  "success": false,
+  "failure_type": "unknown",
+  "t_start": 1778564222.5243642,
+  "params": {
+    "pre_z_base": 0.22,
+    "down_z_base": 0.02,
+    "lift_z_base": 0.26,
+    "x_offset": 0.0,
+    "y_offset": 0.0,
+    "close": 0.0,
+    "close_seq": "0.6,0.2,-0.2,-0.6,-1.0",
+    "close_wait": 0.8,
+    "gripper_close_duration": 1.2,
+    "down_duration": 3.0,
+    "lift_duration": 3.5
+  },
+  "stage": "home",
+  "t_end": 1778564238.0866501,
+  "duration_s": 15.562285900115967
+}

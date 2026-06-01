@@ -1,0 +1,45 @@
+topics:
+  rgb: /depth_cam/rgbd/image
+  depth: /depth_cam/rgbd/depth_image
+  camera_info: /depth_cam/rgbd/camera_info
+
+color_detector:
+  hsv_low_1: [0, 60, 40]
+  hsv_high_1: [12, 255, 255]
+
+  hsv_low_2: [168, 60, 40]
+  hsv_high_2: [180, 255, 255]
+
+  min_area_px: 80
+  morph_kernel: 5
+
+depth:
+  min_m: 0.02
+  max_m: 10.00
+
+  # 严谨模式：优先使用红色轮廓 mask 内的注册 depth
+  use_contour_mask: true
+
+  # 如果 contour mask 内深度不足，再用 bbox 中心区域
+  fallback_center_crop_ratio: 0.80
+
+frames:
+  base_frame_candidates:
+    - base_link
+    - robot/base_link
+
+  camera_frame_candidates:
+    - depth_cam_frame
+    - robot/link4/robot_cam_rgb
+    - robot/link4/robot_cam_depth
+    - depth_cam_link
+    - robot/depth_cam_frame
+    - robot/depth_cam_link
+
+runtime:
+  timeout_sec: 10.0
+  sync_slop_sec: 0.60
+
+  output_json: /home/ubuntu/ros2_ws/day5_method_a/results/method_a_color_once.json
+  output_debug_image: /home/ubuntu/ros2_ws/day5_method_a/results/debug/method_a_color_once.png
+  output_mask_image: /home/ubuntu/ros2_ws/day5_method_a/results/debug/method_a_color_mask.png

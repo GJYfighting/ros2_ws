@@ -1,0 +1,7 @@
+pose_name,x,y,visible,centered,self_occlusion,score,notes
+observe_candidate_a,0.06,-0.08,1,0,1,2,good
+observe_candidate_a,0.06,0.00,1,1,1,3,good
+observe_candidate_a,0.06,0.08,1,0,1,2,good
+observe_candidate_a,0.12,-0.08,1,0,1,2,good
+observe_candidate_a,0.06,0.00,1,1,1,3,good
+observe_candidate_a,0.12,0.08,1,1,1,3,good

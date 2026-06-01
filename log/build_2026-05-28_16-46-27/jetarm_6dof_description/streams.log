@@ -1,0 +1,21 @@
+[30.025s] Invoking command in '/home/ubuntu/ros2_ws/src/simulations/jetarm_6dof_description': PYTHONPATH=/home/ubuntu/ros2_ws/build/jetarm_6dof_description/prefix_override:/home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_day5) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/jetarm_6dof_description build --build-base /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build install --record /home/ubuntu/ros2_ws/build/jetarm_6dof_description/install.log --single-version-externally-managed install_data
+[30.240s] running egg_info
+[30.240s] writing ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/PKG-INFO
+[30.240s] writing dependency_links to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/dependency_links.txt
+[30.240s] writing entry points to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/entry_points.txt
+[30.240s] writing requirements to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/requires.txt
+[30.240s] writing top-level names to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/top_level.txt
+[30.240s] reading manifest file '../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/SOURCES.txt'
+[30.243s] writing manifest file '../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/SOURCES.txt'
+[30.243s] running build
+[30.243s] running build_py
+[30.243s] running install
+[30.243s] running install_lib
+[30.243s] running install_data
+[30.244s] copying gazebo/jetarm.gazebo.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+[30.245s] running install_egg_info
+[30.247s] removing '/home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm_6dof_description-0.0.0-py3.10.egg-info' (and everything under it)
+[30.250s] Copying ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info to /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm_6dof_description-0.0.0-py3.10.egg-info
+[30.250s] running install_scripts
+[30.275s] writing list of installed files to '/home/ubuntu/ros2_ws/build/jetarm_6dof_description/install.log'
+[60.057s] Invoked command in '/home/ubuntu/ros2_ws/src/simulations/jetarm_6dof_description' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/jetarm_6dof_description/prefix_override:/home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_day5) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/jetarm_6dof_description build --build-base /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build install --record /home/ubuntu/ros2_ws/build/jetarm_6dof_description/install.log --single-version-externally-managed install_data

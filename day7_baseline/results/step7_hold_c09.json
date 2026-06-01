@@ -1,0 +1,168 @@
+{
+  "trial_id": "step7_hold_c09",
+  "mode": "hold_close_lift_probe",
+  "params": {
+    "trial_id": "step7_hold_c09",
+    "skip_home": false,
+    "pre_z_base": 0.22,
+    "down_z_base": 0.02,
+    "lift_z_base": 0.06,
+    "x_offset": 0.0,
+    "y_offset": 0.0,
+    "close_seq": "1.2,1.1,1.0,0.95,0.9",
+    "gripper_step_dt": 0.8,
+    "gripper_hold_s": 25.0,
+    "wait_before_lift": 4.0,
+    "down_duration": 3.0,
+    "lift_duration": 4.0,
+    "hold_after_lift": 1.0,
+    "clamp_dz": 0.012,
+    "success_dz": 0.035,
+    "max_clamp_xy": 0.035
+  },
+  "close_values": [
+    1.2,
+    1.1,
+    1.0,
+    0.95,
+    0.9
+  ],
+  "success": false,
+  "clamped": false,
+  "failure_type": "not_clamped",
+  "diagnosis": "gripper stayed in contact but block did not follow. If actual_r remains around contact value, remaining issue is contact geometry/friction, not free gripper motion.",
+  "t_start": 1778572944.1108406,
+  "stage": "done",
+  "truth_before": {
+    "name": "wood_block",
+    "x": 0.12,
+    "y": 1.066059125161629e-17,
+    "z": 0.774737685622604,
+    "qx": 3.6429892857332274e-17,
+    "qy": -1.384353327294565e-16,
+    "qz": 8.015802202878882e-17,
+    "qw": 1.0,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "target_world_xyz": [
+    0.12,
+    1.066059125161629e-17,
+    0.774737685622604
+  ],
+  "target_base_xy": [
+    0.32,
+    1.066059125161629e-17
+  ],
+  "waypoints_base": {
+    "pregrasp": [
+      0.32,
+      1.066059125161629e-17,
+      0.22
+    ],
+    "down": [
+      0.32,
+      1.066059125161629e-17,
+      0.02
+    ],
+    "lift": [
+      0.32,
+      1.066059125161629e-17,
+      0.06
+    ]
+  },
+  "q_targets": {
+    "pregrasp": [
+      -9.038795829053778e-05,
+      -0.40003805032644985,
+      -0.8465544819149895,
+      -0.5746275622033788,
+      -0.016459460283009965
+    ],
+    "down": [
+      -0.00010329703369155115,
+      -0.8738348745815875,
+      -1.0180440253985672,
+      -0.5690658147824731,
+      -0.016459730005162154
+    ],
+    "lift": [
+      -6.562140545725371e-05,
+      -0.7260722541420415,
+      -1.02858399130734,
+      -0.6236701191243367,
+      -0.01645436499549139
+    ]
+  },
+  "truth_after_down": {
+    "name": "wood_block",
+    "x": 0.12,
+    "y": 1.3749485769725494e-17,
+    "z": 0.7749885659963509,
+    "qx": -1.179756287063109e-17,
+    "qy": -1.3566121020672603e-16,
+    "qz": 9.329992347598472e-17,
+    "qw": 1.0,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "delta_after_down": {
+    "dx": 0.0,
+    "dy": 3.0888945181092044e-18,
+    "dz": 0.00025088037374687566,
+    "abs_xy": 3.0888945181092044e-18
+  },
+  "actual_r_joint_before_lift": 1.2316297969016639,
+  "truth_after_hold_close": {
+    "name": "wood_block",
+    "x": 0.11963538304297419,
+    "y": -6.63481346017442e-06,
+    "z": 0.7728566045288852,
+    "qx": 0.00012051698192164626,
+    "qy": -0.008695433459236717,
+    "qz": 1.5066291221023209e-05,
+    "qw": 0.9999621866278844,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "delta_after_hold_close": {
+    "dx": -0.000364616957025804,
+    "dy": -6.634813460185081e-06,
+    "dz": -0.0018810810937188727,
+    "abs_xy": 0.00036467731777615185
+  },
+  "actual_r_joint_after_lift": 0.9000859290778694,
+  "truth_after_lift": {
+    "name": "wood_block",
+    "x": 0.11922121701443197,
+    "y": -0.00020951699625680294,
+    "z": 0.7748292347894007,
+    "qx": -0.0031850021462908286,
+    "qy": -0.006104804898245287,
+    "qz": 0.007251470953713287,
+    "qw": 0.9999500003937647,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "delta_after_lift": {
+    "dx": -0.0007787829855680217,
+    "dy": -0.0002095169962568136,
+    "dz": 9.154916679665615e-05,
+    "abs_xy": 0.0008064739985459662
+  },
+  "truth_after": {
+    "name": "wood_block",
+    "x": 0.11922121701443197,
+    "y": -0.00020951699625680294,
+    "z": 0.7748292347894007,
+    "qx": -0.0031850021462908286,
+    "qy": -0.006104804898245287,
+    "qz": 0.007251470953713287,
+    "qw": 0.9999500003937647,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "delta_final": {
+    "dx": -0.0007787829855680217,
+    "dy": -0.0002095169962568136,
+    "dz": 9.154916679665615e-05,
+    "abs_xy": 0.0008064739985459662
+  },
+  "t_end": 1778573463.4922824,
+  "duration_s": 519.3814418315887
+}

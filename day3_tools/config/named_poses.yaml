@@ -1,0 +1,35 @@
+poses:
+  home_reset:
+    arm: [0.0, 0.0, 0.0, 0.0, 0.0]
+    gripper: 1.4
+    duration: 3.0
+
+  seed_init_pose:
+    arm: [0.0, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 3.0
+
+  observe_candidate_a:
+    arm: [0.0, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 3.0
+
+  observe_candidate_b:
+    arm: [0.0, 0.60, -1.40, -1.45, 0.0]
+    gripper: 1.4
+    duration: 3.0
+
+  observe_candidate_c:
+    arm: [0.0, 0.45, -1.20, -1.55, 0.0]
+    gripper: 1.4
+    duration: 3.0
+
+  pregrasp_candidate_a:
+    arm: [0.0, 0.35, -1.10, -1.70, 0.0]
+    gripper: 1.4
+    duration: 3.0
+
+  pregrasp_candidate_b:
+    arm: [0.0, 0.25, -0.95, -1.80, 0.0]
+    gripper: 1.4
+    duration: 3.0

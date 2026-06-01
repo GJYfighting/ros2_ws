@@ -1,0 +1,39 @@
+paths:
+  observe_pose_file: /home/ubuntu/ros2_ws/day3_tools/config/observe_pose.yaml
+  send_pose_script: /home/ubuntu/ros2_ws/day5_method_a/scripts/send_pose_file.py
+
+  set_block_pose_script: /home/ubuntu/ros2_ws/day4_tools/scripts/set_block_pose.py
+  get_block_truth_script: /home/ubuntu/ros2_ws/day4_tools/scripts/get_block_truth.py
+
+  perception_script: /home/ubuntu/ros2_ws/day5_method_a/scripts/method_a_color_rgbd_once.py
+  perception_json: /home/ubuntu/ros2_ws/day5_method_a/results/method_a_color_once.json
+
+  results_dir: /home/ubuntu/ros2_ws/day6_tools/results
+  dataset_csv: /home/ubuntu/ros2_ws/day6_tools/results/perception_error_dataset.csv
+  error_model_json: /home/ubuntu/ros2_ws/day6_tools/results/perception_error_model.json
+  summary_txt: /home/ubuntu/ros2_ws/day6_tools/results/perception_error_summary.txt
+
+randomization:
+  x_min: 0.06
+  x_max: 0.18
+  y_min: -0.08
+  y_max: 0.08
+  yaw_min: -0.35
+  yaw_max: 0.35
+
+block:
+  z: 0.775
+
+robot_spawn_in_gazebo_world:
+  # robot_gazebo/spawn_model.launch.py 中机器人被生成在 x=-0.20, y=0, z=0.75 附近
+  # 如果 estimate_base_frame 是 base_link 下的位置，可用此偏移换算成 Gazebo world 近似位置
+  x: -0.20
+  y: 0.00
+  z: 0.75
+
+timing:
+  settle_after_block_reset_sec: 0.8
+  settle_after_observe_pose_sec: 1.5
+
+dataset:
+  archive_each_sample_json: true

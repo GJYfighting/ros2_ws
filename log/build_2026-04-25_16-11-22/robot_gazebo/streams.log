@@ -1,0 +1,20 @@
+[0.647s] Invoking command in '/home/ubuntu/ros2_ws/build/robot_gazebo': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build --no-deps symlink_data
+[0.814s] running develop
+[0.815s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.815s]   warnings.warn(
+[0.911s] running egg_info
+[0.911s] writing robot_gazebo.egg-info/PKG-INFO
+[0.912s] writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+[0.912s] writing entry points to robot_gazebo.egg-info/entry_points.txt
+[0.912s] writing requirements to robot_gazebo.egg-info/requires.txt
+[0.912s] writing top-level names to robot_gazebo.egg-info/top_level.txt
+[0.914s] reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[0.915s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[0.916s] running build_ext
+[0.916s] Creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[0.917s] 
+[0.917s] Installed /home/ubuntu/ros2_ws/build/robot_gazebo
+[0.917s] running symlink_data
+[0.917s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py.before_rgbd -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.918s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro.before_rgbd -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[0.938s] Invoked command in '/home/ubuntu/ros2_ws/build/robot_gazebo' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build --no-deps symlink_data

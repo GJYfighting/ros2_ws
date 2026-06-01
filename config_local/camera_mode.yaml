@@ -1,0 +1,5 @@
+camera:
+  rgb_topic: /depth_cam/rgb/image_raw
+  depth_topic: /depth_cam/depth/image_raw
+  camera_info_topic: /depth_cam/rgb/camera_info
+  use_real_depth_topic: true

@@ -1,0 +1,65 @@
+{
+  "method": "color_block_rgbd",
+  "rgb_topic": "/depth_cam/rgbd/image",
+  "depth_topic": "/depth_cam/rgbd/depth_image",
+  "camera_info_topic": "/depth_cam/rgbd/camera_info",
+  "rgb_frame_id": "robot/link4/robot_rgbd_cam",
+  "depth_frame_id": "robot/link4/robot_rgbd_cam",
+  "camera_info_frame_id": "depth_cam_frame",
+  "detected": true,
+  "color_detection": {
+    "center_uv": [
+      128.79214477539062,
+      235.6586456298828
+    ],
+    "bbox_xywh": [
+      76,
+      195,
+      108,
+      89
+    ],
+    "area_px": 7401.0,
+    "angle_deg": 79.2156982421875,
+    "rotated_box_points": [
+      [
+        72,
+        203
+      ],
+      [
+        170,
+        185
+      ],
+      [
+        186,
+        268
+      ],
+      [
+        88,
+        287
+      ]
+    ]
+  },
+  "depth_valid": true,
+  "depth": {
+    "median_m": 0.38604891300201416,
+    "method": "contour_mask",
+    "fallback_crop_roi_xyxy": null
+  },
+  "estimate_camera_frame": {
+    "frame": "depth_cam_frame",
+    "x": -0.13314914581494489,
+    "y": 0.02483118803335457,
+    "z": 0.38604891300201416
+  },
+  "tf": {
+    "transform_found": true,
+    "base_frame": "base_link",
+    "camera_frame_used": "depth_cam_frame"
+  },
+  "estimate_base_frame": {
+    "frame": "base_link",
+    "x": -0.3195781982666944,
+    "y": 0.11867416747781721,
+    "z": 0.09175748585082183
+  }
+}

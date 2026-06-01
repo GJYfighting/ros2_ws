@@ -1,0 +1,84 @@
+{
+  "rgb_topic": "/depth_cam/rgbd/image",
+  "depth_topic": "/depth_cam/rgbd/depth_image",
+  "camera_info_topic": "/depth_cam/rgbd/camera_info",
+  "rgb_frame": "robot/link4/robot_rgbd_cam",
+  "depth_frame": "robot/link4/robot_rgbd_cam",
+  "camera_info_frame": "depth_cam_frame",
+  "rgb_encoding": "rgb8",
+  "depth_encoding": "32FC1",
+  "rgb_size": [
+    640,
+    400
+  ],
+  "depth_size": [
+    640,
+    400
+  ],
+  "camera_info_size": [
+    640,
+    400
+  ],
+  "detected": true,
+  "whole_depth_total": 256000,
+  "whole_depth_finite": 104529,
+  "whole_depth_valid": 104529,
+  "whole_depth_finite_min": 0.10775484144687653,
+  "whole_depth_finite_max": 0.5562209486961365,
+  "whole_depth_finite_median": 0.43670496344566345,
+  "whole_depth_valid_min": 0.10775484144687653,
+  "whole_depth_valid_max": 0.5562209486961365,
+  "whole_depth_valid_median": 0.43670496344566345,
+  "color_detection": {
+    "center_uv": [
+      152.0,
+      199.5
+    ],
+    "bbox_xywh": [
+      114,
+      160,
+      77,
+      80
+    ],
+    "area_px": 5643.0,
+    "angle_deg": 90.0,
+    "rotated_box_points": [
+      [
+        114,
+        160
+      ],
+      [
+        190,
+        160
+      ],
+      [
+        190,
+        239
+      ],
+      [
+        114,
+        239
+      ]
+    ]
+  },
+  "bbox_depth_total": 6160,
+  "bbox_depth_finite": 5922,
+  "bbox_depth_valid": 5922,
+  "bbox_depth_finite_min": 0.34216129779815674,
+  "bbox_depth_finite_max": 0.45117437839508057,
+  "bbox_depth_finite_median": 0.3529784083366394,
+  "bbox_depth_valid_min": 0.34216129779815674,
+  "bbox_depth_valid_max": 0.45117437839508057,
+  "bbox_depth_valid_median": 0.3529784083366394,
+  "contour_depth_total": 5795,
+  "contour_depth_finite": 5792,
+  "contour_depth_valid": 5792,
+  "contour_depth_finite_min": 0.34216129779815674,
+  "contour_depth_finite_max": 0.369936466217041,
+  "contour_depth_finite_median": 0.35296615958213806,
+  "contour_depth_valid_min": 0.34216129779815674,
+  "contour_depth_valid_max": 0.369936466217041,
+  "contour_depth_valid_median": 0.35296615958213806,
+  "registration_pass": true,
+  "reason": "rgb_bbox_has_valid_depth"
+}

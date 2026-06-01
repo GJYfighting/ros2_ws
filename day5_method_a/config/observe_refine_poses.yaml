@@ -1,0 +1,45 @@
+poses:
+  refine_01:
+    arm: [0.0, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_02:
+    arm: [-0.15, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_03:
+    arm: [0.15, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_04:
+    arm: [0.0, 0.7309, -1.6127, -1.45, 0.0]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_05:
+    arm: [0.0, 0.7309, -1.6127, -1.80, 0.0]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_06:
+    arm: [0.0, 0.7309, -1.6127, -1.6591, -0.6]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_07:
+    arm: [0.0, 0.7309, -1.6127, -1.6591, 0.6]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_08:
+    arm: [-0.20, 0.7309, -1.6127, -1.50, 0.6]
+    gripper: 1.4
+    duration: 3.5
+
+  refine_09:
+    arm: [0.20, 0.7309, -1.6127, -1.50, -0.6]
+    gripper: 1.4
+    duration: 3.5

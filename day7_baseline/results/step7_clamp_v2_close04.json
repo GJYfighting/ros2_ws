@@ -1,0 +1,141 @@
+{
+  "trial_id": "step7_clamp_v2_close04",
+  "mode": "clamp_lift_probe",
+  "params": {
+    "trial_id": "step7_clamp_v2_close04",
+    "skip_home": false,
+    "pre_z_base": 0.22,
+    "down_z_base": 0.02,
+    "lift_seq": "0.060,0.100,0.160",
+    "x_offset": 0.0,
+    "y_offset": 0.0,
+    "close_seq": "1.0,0.8,0.6,0.4",
+    "close_wait": 1.0,
+    "gripper_close_duration": 1.2,
+    "down_duration": 3.0,
+    "lift_duration": 3.0,
+    "hold_after_lift": 1.0,
+    "clamp_dz": 0.012,
+    "max_clamp_xy": 0.035
+  },
+  "close_values": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "lift_zs": [
+    0.06,
+    0.1,
+    0.16
+  ],
+  "success": false,
+  "clamped": false,
+  "failure_type": "runtime_error",
+  "t_start": 1778567294.0666087,
+  "stage": "close_3_0.4",
+  "truth_before": {
+    "name": "wood_block",
+    "x": 0.12,
+    "y": 1.1627793051020165e-17,
+    "z": 0.7747868537026759,
+    "qx": -9.610579029999736e-18,
+    "qy": -1.47635555924493e-16,
+    "qz": 1.6739422644763495e-16,
+    "qw": 1.0,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "target_world_xyz": [
+    0.12,
+    1.1627793051020165e-17,
+    0.7747868537026759
+  ],
+  "target_base_xy": [
+    0.32,
+    1.1627793051020165e-17
+  ],
+  "waypoints_base": {
+    "pregrasp": [
+      0.32,
+      1.1627793051020165e-17,
+      0.22
+    ],
+    "down": [
+      0.32,
+      1.1627793051020165e-17,
+      0.02
+    ],
+    "lift_1": [
+      0.32,
+      1.1627793051020165e-17,
+      0.06
+    ],
+    "lift_2": [
+      0.32,
+      1.1627793051020165e-17,
+      0.1
+    ],
+    "lift_3": [
+      0.32,
+      1.1627793051020165e-17,
+      0.16
+    ]
+  },
+  "q_targets": {
+    "pregrasp": [
+      0.00010309216943363002,
+      -0.40621146246730244,
+      -0.8294959140735685,
+      -0.5929708646506084,
+      0.019637977646424304
+    ],
+    "down": [
+      0.0001364931161008631,
+      -0.8794099510364715,
+      -1.0024408050602158,
+      -0.5869023664318789,
+      0.019639034582924642
+    ],
+    "lift_1": [
+      9.212135282738133e-05,
+      -0.7323777102901634,
+      -1.011959538397392,
+      -0.6420014797132415,
+      0.019621395896493487
+    ],
+    "lift_2": [
+      0.00011706464048958542,
+      -0.6088912017623563,
+      -0.998012881911299,
+      -0.6716545182292376,
+      0.019611718539643806
+    ],
+    "lift_3": [
+      8.313485960241448e-05,
+      -0.4728586149043979,
+      -0.9378776629849414,
+      -0.6646117203281934,
+      0.019614461325515007
+    ]
+  },
+  "truth_after_down": {
+    "name": "wood_block",
+    "x": 0.12,
+    "y": 2.439998205872377e-17,
+    "z": 0.7749906325688805,
+    "qx": 1.153606114010216e-17,
+    "qy": -1.5691632975695978e-16,
+    "qz": 1.4311024153362237e-16,
+    "qw": 1.0,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "delta_after_down": {
+    "dx": 0.0,
+    "dy": 1.2772189007703604e-17,
+    "dz": 0.00020377886620459584,
+    "abs_xy": 1.2772189007703604e-17
+  },
+  "error": "Command failed: python3 /home/ubuntu/ros2_ws/day4_tools/scripts/get_block_truth.py --out /home/ubuntu/ros2_ws/day7_baseline/results/truth_step7_clamp_v2_close04_after_close.json\nTraceback (most recent call last):\n  File \"/home/ubuntu/ros2_ws/day4_tools/scripts/get_block_truth.py\", line 27, in <module>\n    main()\n  File \"/home/ubuntu/ros2_ws/day4_tools/scripts/get_block_truth.py\", line 17, in main\n    pose = get_truth_pose(world, model)\n  File \"/home/ubuntu/ros2_ws/day4_tools/scripts/ign_world_utils.py\", line 189, in get_truth_pose\n    text = capture_pose_text(topic)\n  File \"/home/ubuntu/ros2_ws/day4_tools/scripts/ign_world_utils.py\", line 114, in capture_pose_text\n    raise RuntimeError(\nRuntimeError: No text captured from /world/robot_world/dynamic_pose/info. Please check that Gazebo is running and the topic is active.\n",
+  "t_end": 1778568166.436941,
+  "duration_s": 872.3703322410583
+}

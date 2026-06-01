@@ -1,0 +1,54 @@
+running develop
+running egg_info
+creating robot_gazebo.egg-info
+writing robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+writing entry points to robot_gazebo.egg-info/entry_points.txt
+writing requirements to robot_gazebo.egg-info/requires.txt
+writing top-level names to robot_gazebo.egg-info/top_level.txt
+writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+
+Installed /home/ubuntu/ros2_ws/build/robot_gazebo
+running symlink_data
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/resource/robot_gazebo -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/package.xml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/spawn_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py.day2.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/robot.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro.day2.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/robot.gazebo.xacro.save -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/jetarm.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/robot.gazebo.xacro.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/config/robot_config.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/grasp_table.sdf.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/grasp_table.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/worlds/empty.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bed
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+creating /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair

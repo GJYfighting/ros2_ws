@@ -1,0 +1,18 @@
+[0.662s] Invoking command in '/home/ubuntu/ros2_ws/build/jetarm_6dof_description': PYTHONPATH=/home/ubuntu/ros2_ws/build/jetarm_6dof_description/prefix_override:/home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build --no-deps symlink_data
+[0.832s] running develop
+[0.834s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.834s]   warnings.warn(
+[0.931s] running egg_info
+[0.931s] writing jetarm_6dof_description.egg-info/PKG-INFO
+[0.932s] writing dependency_links to jetarm_6dof_description.egg-info/dependency_links.txt
+[0.932s] writing entry points to jetarm_6dof_description.egg-info/entry_points.txt
+[0.932s] writing requirements to jetarm_6dof_description.egg-info/requires.txt
+[0.932s] writing top-level names to jetarm_6dof_description.egg-info/top_level.txt
+[0.934s] reading manifest file 'jetarm_6dof_description.egg-info/SOURCES.txt'
+[0.936s] writing manifest file 'jetarm_6dof_description.egg-info/SOURCES.txt'
+[0.938s] running build_ext
+[0.938s] Creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm-6dof-description.egg-link (link to .)
+[0.938s] 
+[0.938s] Installed /home/ubuntu/ros2_ws/build/jetarm_6dof_description
+[0.938s] running symlink_data
+[0.975s] Invoked command in '/home/ubuntu/ros2_ws/build/jetarm_6dof_description' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/jetarm_6dof_description/prefix_override:/home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build --no-deps symlink_data

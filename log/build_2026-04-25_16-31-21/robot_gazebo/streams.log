@@ -1,0 +1,19 @@
+[0.560s] Invoking command in '/home/ubuntu/ros2_ws/build/robot_gazebo': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build --no-deps symlink_data
+[0.742s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.742s]   warnings.warn(
+[0.742s] running develop
+[0.842s] running egg_info
+[0.842s] writing robot_gazebo.egg-info/PKG-INFO
+[0.842s] writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+[0.842s] writing entry points to robot_gazebo.egg-info/entry_points.txt
+[0.842s] writing requirements to robot_gazebo.egg-info/requires.txt
+[0.842s] writing top-level names to robot_gazebo.egg-info/top_level.txt
+[0.843s] reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[0.846s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[0.846s] running build_ext
+[0.846s] Creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[0.846s] 
+[0.846s] Installed /home/ubuntu/ros2_ws/build/robot_gazebo
+[0.846s] running symlink_data
+[0.846s] symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py.syntax_error_bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[0.865s] Invoked command in '/home/ubuntu/ros2_ws/build/robot_gazebo' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build --no-deps symlink_data

@@ -1,0 +1,47 @@
+{
+  "trial_id": "scheme_a_tippad_low_alignment_x0_observe_down",
+  "params": {
+    "trial_id": "scheme_a_tippad_low_alignment_x0_observe_down",
+    "block_x": 0.12,
+    "block_y": 0.0,
+    "block_z": 0.775,
+    "block_yaw": 0.0,
+    "pre_z_base": 0.22,
+    "down_z_base": 0.02,
+    "x_offset": 0.0,
+    "y_offset": 0.0,
+    "close": null
+  },
+  "t_start": 1780045053.6816034,
+  "truth_before": {
+    "name": "wood_block",
+    "x": 0.12,
+    "y": -5.267968346470126e-18,
+    "z": 0.7684972950126161,
+    "qx": 5.611376788381511e-17,
+    "qy": -7.477279653104138e-17,
+    "qz": 3.844701610411249e-18,
+    "qw": 1.0,
+    "source_topic": "/world/robot_world/dynamic_pose/info"
+  },
+  "target_base": [
+    0.32,
+    -5.267968346470126e-18,
+    0.0184972950126161
+  ],
+  "waypoints_base": {
+    "pregrasp": [
+      0.32,
+      -5.267968346470126e-18,
+      0.22
+    ],
+    "down": [
+      0.32,
+      -5.267968346470126e-18,
+      0.02
+    ]
+  },
+  "error": "ik_fail_pregrasp_ik_error_-21",
+  "t_end": 1780045091.6921504,
+  "duration_s": 38.010546922683716
+}

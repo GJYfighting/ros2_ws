@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/simulations/robot_moveit_config/launch/spawn_controllers.launch.py

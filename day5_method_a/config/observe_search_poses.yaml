@@ -1,0 +1,108 @@
+poses:
+  # 当前 observe_pose / candidate A
+  observe_s01:
+    arm: [0.0, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  # 左右轻微旋转底座
+  observe_s02:
+    arm: [-0.25, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s03:
+    arm: [0.25, 0.7309, -1.6127, -1.6591, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  # 肩关节抬高/压低一点
+  observe_s04:
+    arm: [0.0, 0.60, -1.50, -1.55, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s05:
+    arm: [0.0, 0.85, -1.60, -1.45, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  # 更靠近桌面方向观察
+  observe_s06:
+    arm: [0.0, 0.65, -1.35, -1.70, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s07:
+    arm: [0.0, 0.75, -1.30, -1.80, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s08:
+    arm: [0.0, 0.90, -1.45, -1.70, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  # 改变腕部俯仰
+  observe_s09:
+    arm: [0.0, 0.75, -1.45, -1.20, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s10:
+    arm: [0.0, 0.75, -1.45, -1.50, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s11:
+    arm: [0.0, 0.75, -1.45, -1.85, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  # 腕部旋转，尝试看相机画面是否转到桌面方向
+  observe_s12:
+    arm: [0.0, 0.75, -1.45, -1.60, -0.80]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s13:
+    arm: [0.0, 0.75, -1.45, -1.60, 0.80]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s14:
+    arm: [0.0, 0.75, -1.45, -1.60, 1.50]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s15:
+    arm: [0.0, 0.75, -1.45, -1.60, -1.50]
+    gripper: 1.4
+    duration: 4.0
+
+  # 底座 + 腕部组合
+  observe_s16:
+    arm: [-0.30, 0.80, -1.45, -1.65, 0.80]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s17:
+    arm: [0.30, 0.80, -1.45, -1.65, -0.80]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s18:
+    arm: [-0.35, 0.65, -1.35, -1.75, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  observe_s19:
+    arm: [0.35, 0.65, -1.35, -1.75, 0.0]
+    gripper: 1.4
+    duration: 4.0
+
+  # 更保守的折叠观察姿态
+  observe_s20:
+    arm: [0.0, 0.50, -1.15, -1.75, 0.0]
+    gripper: 1.4
+    duration: 4.0

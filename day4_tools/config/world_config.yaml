@@ -1,0 +1,29 @@
+world:
+  name: robot_world
+  model_name: wood_block
+  set_pose_service: /world/robot_world/set_pose
+  create_service: /world/robot_world/create
+  remove_service: /world/robot_world/remove
+  preferred_pose_topic: /world/robot_world/dynamic_pose/info
+  fallback_pose_topic: /world/robot_world/pose/info
+
+block_nominal:
+  x: 0.12
+  y: 0.0
+  z: 0.775
+  size: 0.05
+  mass: 0.03
+  mu: 0.8
+  color_rgba: [0.85, 0.12, 0.12, 1.0]
+
+randomization:
+  x_min: 0.06
+  x_max: 0.18
+  y_min: -0.08
+  y_max: 0.08
+  yaw_min: -0.35
+  yaw_max: 0.35
+  mass_min: 0.027
+  mass_max: 0.033
+  mu_min: 0.70
+  mu_max: 0.90

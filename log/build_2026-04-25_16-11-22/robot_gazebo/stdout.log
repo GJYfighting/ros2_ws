@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+writing entry points to robot_gazebo.egg-info/entry_points.txt
+writing requirements to robot_gazebo.egg-info/requires.txt
+writing top-level names to robot_gazebo.egg-info/top_level.txt
+reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+
+Installed /home/ubuntu/ros2_ws/build/robot_gazebo
+running symlink_data
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py.before_rgbd -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+symbolically linking /home/ubuntu/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro.before_rgbd -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf

@@ -1,0 +1,6 @@
+source;share/jetarm_6dof_description/hook/pythonpath.ps1
+source;share/jetarm_6dof_description/hook/pythonpath.dsv
+source;share/jetarm_6dof_description/hook/pythonpath.sh
+source;share/jetarm_6dof_description/hook/ament_prefix_path.ps1
+source;share/jetarm_6dof_description/hook/ament_prefix_path.dsv
+source;share/jetarm_6dof_description/hook/ament_prefix_path.sh

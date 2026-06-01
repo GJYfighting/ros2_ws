@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/ros2_ws/camera_info_republisher.py", line 94, in <module>
+    main()
+  File "/home/ubuntu/ros2_ws/camera_info_republisher.py", line 80, in main
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 79, in init
+    _rclpy.rclpy_logging_configure(self.__context)
+RuntimeError: Failed opening file /home/ubuntu/.ros/log/python3_31_1780036446334.log for writing: Read-only file system

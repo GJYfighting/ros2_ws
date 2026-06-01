@@ -1,0 +1,95 @@
+running develop
+Removing /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm-6dof-description.egg-link (link to .)
+running egg_info
+writing ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/PKG-INFO
+writing dependency_links to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/dependency_links.txt
+writing entry points to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/entry_points.txt
+writing requirements to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/requires.txt
+writing top-level names to ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/top_level.txt
+reading manifest file '../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/SOURCES.txt'
+writing manifest file '../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build
+creating /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build/lib
+creating /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build/lib/jetarm_6dof_description
+copying jetarm_6dof_description/__init__.py -> /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build/lib/jetarm_6dof_description
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm_6dof_description
+copying /home/ubuntu/ros2_ws/build/jetarm_6dof_description/build/lib/jetarm_6dof_description/__init__.py -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm_6dof_description
+byte-compiling /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm_6dof_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/jetarm_6dof_description -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description
+copying launch/description.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+copying launch/joints_gui.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+copying launch/jetarm_rviz_view.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+copying launch/just_rviz.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+copying urdf/arm.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/gripper.urdf.xacro.bak_day7_remove_mimic -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/gripper.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/connect.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/jetarm_6dof_description.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/depth_camera.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/jetarm_6dof_robot.urdf.xacro.bak_grasp_tcp_1778119913 -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/gripper.urdf.xacro.bak_day7_proxy_collision -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/jetarm_6dof_robot.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/materials.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying urdf/usb_cam.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+copying rviz/jetarm.rviz -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/rviz
+copying gazebo/jetarm.transmission.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+copying gazebo/jetarm.gazebo.xacro.bak_day7_contact -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+copying gazebo/jetarm.gazebo.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+copying gazebo/jetarm.gazebo.xacro.bak_day7_contact_v2 -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+copying gazebo/jetarm.transmission.xacro.bak_day7_multijoint -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+copying gazebo/jetarm.gazebo.xacro.bak_day7_proxy_collision -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+copying meshes/jetarm_6dof/gripper_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK5_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK2.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/gripper_link_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_BASE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/servo_link2_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK3_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/servo_link1.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link3_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK2_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_BASE_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_BASE_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK2_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK3_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/servo_link2.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_BASE_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK3_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link5.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link4.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK1_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK2_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK1_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK1.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link4_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_BASE_SCREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link3.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link2.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK5.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/JetArm_6DOF_LINK3.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/jetarm_6dof/link2_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+copying meshes/Gripper_Base.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/
+copying meshes/gripper/l_out_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+copying meshes/gripper/l_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+copying meshes/gripper/r_out_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+copying meshes/gripper/l_in_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+copying meshes/gripper/r_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+copying meshes/gripper/r_in_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+running install_egg_info
+Copying ../../../build/jetarm_6dof_description/jetarm_6dof_description.egg-info to /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm_6dof_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/ros2_ws/build/jetarm_6dof_description/install.log'

@@ -1,0 +1,91 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating jetarm_6dof_description.egg-info
+writing jetarm_6dof_description.egg-info/PKG-INFO
+writing dependency_links to jetarm_6dof_description.egg-info/dependency_links.txt
+writing entry points to jetarm_6dof_description.egg-info/entry_points.txt
+writing requirements to jetarm_6dof_description.egg-info/requires.txt
+writing top-level names to jetarm_6dof_description.egg-info/top_level.txt
+writing manifest file 'jetarm_6dof_description.egg-info/SOURCES.txt'
+reading manifest file 'jetarm_6dof_description.egg-info/SOURCES.txt'
+writing manifest file 'jetarm_6dof_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/lib/python3.10/site-packages/jetarm-6dof-description.egg-link (link to .)
+
+Installed /home/ubuntu/ros2_ws/build/jetarm_6dof_description
+running symlink_data
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/ament_index
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/resource/jetarm_6dof_description -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/package.xml -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/launch/description.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/launch/joints_gui.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/launch/jetarm_rviz_view.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/launch/just_rviz.launch -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/launch
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/arm.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/gripper.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/connect.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/jetarm_6dof_description.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/depth_camera.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/jetarm_6dof_robot.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/materials.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/urdf/usb_cam.urdf.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/urdf
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/rviz
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/rviz/jetarm.rviz -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/rviz
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/gazebo/jetarm.transmission.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/gazebo/jetarm.gazebo.xacro -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/gazebo
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/arm
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/gripper_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK5_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK2.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/gripper_link_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_BASE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/servo_link2_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK3_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/servo_link1.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link3_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK2_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_BASE_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_BASE_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK2_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK3_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/servo_link2.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_BASE_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK3_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link5.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link4.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK1_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK2_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK1_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK1.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link4_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_BASE_SCREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_GREEN.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link3.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_WHITE.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link2.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK4_USB_CAM_BLACK.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK5.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/JetArm_6DOF_LINK3.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/jetarm_6dof/link2_collision.stl -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/jetarm_6dof
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/Gripper_Base.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/
+creating /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/gripper/l_out_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/gripper/l_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/gripper/r_out_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/gripper/l_in_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/gripper/r_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper
+symbolically linking /home/ubuntu/ros2_ws/build/jetarm_6dof_description/meshes/gripper/r_in_link.STL -> /home/ubuntu/ros2_ws/install/jetarm_6dof_description/share/jetarm_6dof_description/meshes/gripper

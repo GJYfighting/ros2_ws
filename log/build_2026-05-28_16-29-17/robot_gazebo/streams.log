@@ -1,0 +1,53 @@
+[29.981s] Invoking command in '/home/ubuntu/ros2_ws/build/robot_gazebo': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_day5) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build
+[30.342s] running develop
+[30.344s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[30.344s]   warnings.warn(
+[30.519s] Removing /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[30.803s] Invoked command in '/home/ubuntu/ros2_ws/build/robot_gazebo' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_day5) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/robot_gazebo/build
+[30.813s] Invoking command in '/home/ubuntu/ros2_ws/src/simulations/robot_gazebo': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_day5) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/robot_gazebo build --build-base /home/ubuntu/ros2_ws/build/robot_gazebo/build install --record /home/ubuntu/ros2_ws/build/robot_gazebo/install.log --single-version-externally-managed install_data --force
+[31.047s] running egg_info
+[31.099s] writing ../../../build/robot_gazebo/robot_gazebo.egg-info/PKG-INFO
+[31.099s] writing dependency_links to ../../../build/robot_gazebo/robot_gazebo.egg-info/dependency_links.txt
+[31.099s] writing entry points to ../../../build/robot_gazebo/robot_gazebo.egg-info/entry_points.txt
+[31.099s] writing requirements to ../../../build/robot_gazebo/robot_gazebo.egg-info/requires.txt
+[31.099s] writing top-level names to ../../../build/robot_gazebo/robot_gazebo.egg-info/top_level.txt
+[31.099s] reading manifest file '../../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+[31.099s] writing manifest file '../../../build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+[31.099s] running build
+[31.100s] running build_py
+[31.100s] creating /home/ubuntu/ros2_ws/build/robot_gazebo/build
+[31.100s] creating /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib
+[31.100s] creating /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo
+[31.100s] copying robot_gazebo/__init__.py -> /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo
+[31.100s] running install
+[31.100s] running install_lib
+[31.100s] creating /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+[31.100s] copying /home/ubuntu/ros2_ws/build/robot_gazebo/build/lib/robot_gazebo/__init__.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+[31.100s] byte-compiling /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/__init__.py to __init__.cpython-310.pyc
+[31.100s] running install_data
+[31.100s] copying resource/robot_gazebo -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+[31.100s] copying package.xml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo
+[31.100s] copying launch/ros_ign_bridge.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[31.101s] copying launch/spawn_model.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[31.101s] copying launch/ros_ign_bridge.launch.py.before_rgbd -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[31.104s] copying launch/ros_ign_bridge.launch.py.syntax_error_bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[31.105s] copying launch/ros_ign_bridge.launch.py.day2.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[31.105s] copying launch/worlds.launch.py -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[31.105s] copying urdf/robot.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying urdf/camera.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying urdf/camera.gazebo.xacro.day2.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying urdf/robot.gazebo.xacro.save -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying urdf/jetarm.gazebo.xacro -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying urdf/robot.gazebo.xacro.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying urdf/camera.gazebo.xacro.before_rgbd -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[31.105s] copying config/robot_config.yaml.bak_day7_multijoint -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[31.105s] copying config/robot_config.yaml -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[31.105s] copying worlds/grasp_table.sdf.bak_day7_contact_v2 -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[31.105s] copying worlds/grasp_table.sdf.bak -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[31.105s] copying worlds/grasp_table.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[31.105s] copying worlds/empty.sdf -> /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[31.110s] running install_egg_info
+[31.110s] Copying ../../../build/robot_gazebo/robot_gazebo.egg-info to /home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo-0.0.0-py3.10.egg-info
+[31.110s] running install_scripts
+[31.115s] writing list of installed files to '/home/ubuntu/ros2_ws/build/robot_gazebo/install.log'
+[31.163s] Invoked command in '/home/ubuntu/ros2_ws/src/simulations/robot_gazebo' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_gazebo/prefix_override:/home/ubuntu/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv_day5) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/robot_gazebo build --build-base /home/ubuntu/ros2_ws/build/robot_gazebo/build install --record /home/ubuntu/ros2_ws/build/robot_gazebo/install.log --single-version-externally-managed install_data --force
