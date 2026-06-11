@@ -1,6 +1,0 @@
-[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-05-29-14-46-56-297912-ubuntu-virtual-machine-13400
-[INFO] [launch]: Default logging verbosity is set to INFO
-warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
-[INFO] [move_group-1]: process started with pid [13402]
-[ERROR] [move_group-1]: process has died [pid 13402, exit code 127, cmd '/home/ubuntu/third_party_ros2/ws_moveit/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_opx2x37f --params-file /tmp/launch_params__zbyak7m'].
-[move_group-1] /home/ubuntu/third_party_ros2/ws_moveit/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group: error while loading shared libraries: libgeometric_shapes.so.2.1.3: cannot open shared object file: No such file or directory

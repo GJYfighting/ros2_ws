@@ -1,3 +1,0 @@
-gazebo_pid=10 log=/home/ubuntu/ros2_ws/day7_tools/results/logs/day7_gazebo_20260529_143350.log
-camera_info_pid=31 log=/home/ubuntu/ros2_ws/day7_tools/results/logs/day7_camera_info_20260529_143350.log
-moveit_pid=55 log=/home/ubuntu/ros2_ws/day7_tools/results/logs/day7_moveit_20260529_143350.log
